@@ -4,12 +4,12 @@
   <!-- we import arjs version without NFT but with marker + location based support -->
   <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
   <body style="margin : 0px; overflow: hidden;">
-    <a-scene embedded arjs>
+    <a-scene renderer="logarithmicDepthBuffer: true;" embedded arjs>
       	    <a-marker type='pattern' url='https://raw.githubusercontent.com/Devatu92/Devatu92/main/pattern-logo.patt'>
       		<a-entity
           	  position="0 0 0"
 		  rotation="270 180 180"
-                  scale="15 15 15"
+                  scale="10 10 10"
                   gltf-model="https://raw.githubusercontent.com/Devatu92/Devatu92/main/Elga%20Ace.gltf"
         	></a-entity>
     	    </a-marker>
